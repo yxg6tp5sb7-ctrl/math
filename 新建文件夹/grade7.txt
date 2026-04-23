@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>学习资料导航</title>
+    <style>
+        /* 简单页面样式，让链接更好看 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            background-color: #f5f5f5;
+        }
+        .link-group {
+            margin: 20px 0;
+        }
+        a {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        a:hover {
+            background-color: #3367d6;
+        }
+    </style>
+</head>
+<body>
+    <h2>学习资料导航</h2>
+    <div class="link-group">
+        <a href="homework.html" target="_blank">家庭作业</a>
+        <a href="zhenti.html" target="_blank">历年真题</a>
+        <a href="test.html" target="_blank">单元测试</a>
+    </div>
+</body>
+</html>
